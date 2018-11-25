@@ -9,13 +9,14 @@
         <template slot="navbar-menu">
 
             <li class="nav-item">
-                <a class="nav-link" href="#pablo">Services</a>
+                <router-link tag="li" to="/about">
+                    <a class="nav-link">About</a>
+                </router-link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#pablo">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#pablo">Contact</a>
+                <router-link tag="li" to="/contact">
+                    <a class="nav-link">Contact</a>
+                </router-link>
             </li>
         </template>
     </navbar>

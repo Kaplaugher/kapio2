@@ -1,13 +1,13 @@
 <template>
-    <div class="wrapper">
-        <StarterLanding />
-    </div>
+  <div class="wrapper">
+    <LandingPage />
+  </div>
 </template>
 <script>
-import StarterLanding from './starterLanding';
+import LandingPage from './LandingPage';
 export default {
   components: {
-    StarterLanding
+    LandingPage
   }
 };
 </script>
