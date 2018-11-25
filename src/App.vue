@@ -1,13 +1,20 @@
 <template>
     <div id="app">
-        <router-view name="header"/>
+        <MainNav :colorOnScroll="1" />
         <div>
-            <router-view/>
+            <router-view />
         </div>
-        <router-view name="footer"/>
+        <MainFooter />
     </div>
 </template>
 <script>
-  export default {}
+import MainNav from './layout/StarterNavbar';
+import MainFooter from './layout/StarterFooter';
+export default {
+  components: {
+    MainNav,
+    MainFooter
+  }
+};
 </script>
 

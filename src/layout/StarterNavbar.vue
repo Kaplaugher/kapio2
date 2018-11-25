@@ -1,5 +1,5 @@
 <template>
-    <navbar position="fixed" :transparent="transparent" :color-on-scroll="colorOnScroll" menu-classes="ml-auto">
+    <navbar position="fixed" :transparent="transparent" :color-on-scroll="colorOnScroll" menu-classes="ml-auto" type="primary">
         <template slot-scope="{toggle, isToggled}">
             <router-link class="navbar-brand" to="/">
                 KAPtivating Web Solutions
